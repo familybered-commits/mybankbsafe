@@ -377,3 +377,10 @@ button{font-family:inherit}
   #print-report td{padding:5px 4px;border-bottom:1px solid #eee}
   #print-report .pr-foot{margin-top:24px;font-size:8.5px;color:#777;line-height:1.6;border-top:1px solid #ddd;padding-top:8px}
 }
+
+/* Seletor de idioma PT | EN (mesmo padrão do site bsafebitcoin.org) */
+.lang-seg{display:inline-flex;align-items:center;height:34px;padding:2px;border-radius:100px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14)}
+.lang-seg button{height:28px;padding:0 9px;border:0;border-radius:100px;background:none;color:#9a9a90;font-family:'DM Mono',monospace;font-size:11px;font-weight:500;letter-spacing:.06em;cursor:pointer;transition:var(--ease)}
+.lang-seg button:hover{color:#fff}
+.lang-seg button.on{background:var(--btc,#FC6701);color:#000;cursor:default}
+.lang-seg button:focus-visible{outline:2px solid var(--btc,#FC6701);outline-offset:2px}
